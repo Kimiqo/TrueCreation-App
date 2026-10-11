@@ -1,0 +1,163 @@
+{
+  "limitations": "Synthetic accuracy only. Uploaded song has no ground truth. Single warm CPU run per case; not a rigorous runtime distribution.",
+  "sample_rate": 22050,
+  "thread_count": 4,
+  "results": [
+    {
+      "case": "all-roots-triads",
+      "method": "baseline",
+      "seconds": 0.067,
+      "segments": 24,
+      "exact_label_pct": 90.0,
+      "major_minor_reduction_pct": 90.0,
+      "unknown_pct": 0.0
+    },
+    {
+      "case": "all-roots-triads",
+      "method": "chordino",
+      "seconds": 1.11,
+      "segments": 26,
+      "exact_label_pct": 98.0,
+      "major_minor_reduction_pct": 98.0,
+      "unknown_pct": 0.33
+    },
+    {
+      "case": "all-roots-triads",
+      "method": "btc-large",
+      "seconds": 0.145,
+      "segments": 28,
+      "exact_label_pct": 95.92,
+      "major_minor_reduction_pct": 95.92,
+      "unknown_pct": 1.25
+    },
+    {
+      "case": "rhythmic-progression",
+      "method": "baseline",
+      "seconds": 0.031,
+      "segments": 8,
+      "exact_label_pct": 100.0,
+      "major_minor_reduction_pct": 100.0,
+      "unknown_pct": 0.0
+    },
+    {
+      "case": "rhythmic-progression",
+      "method": "chordino",
+      "seconds": 0.199,
+      "segments": 10,
+      "exact_label_pct": 97.92,
+      "major_minor_reduction_pct": 97.92,
+      "unknown_pct": 0.62
+    },
+    {
+      "case": "rhythmic-progression",
+      "method": "btc-large",
+      "seconds": 0.072,
+      "segments": 8,
+      "exact_label_pct": 98.12,
+      "major_minor_reduction_pct": 98.12,
+      "unknown_pct": 0.0
+    },
+    {
+      "case": "extended-chords",
+      "method": "baseline",
+      "seconds": 0.031,
+      "segments": 9,
+      "exact_label_pct": 25.0,
+      "major_minor_reduction_pct": 37.5,
+      "unknown_pct": 4.17
+    },
+    {
+      "case": "extended-chords",
+      "method": "chordino",
+      "seconds": 0.198,
+      "segments": 9,
+      "exact_label_pct": 85.62,
+      "major_minor_reduction_pct": 85.62,
+      "unknown_pct": 0.62
+    },
+    {
+      "case": "extended-chords",
+      "method": "btc-large",
+      "seconds": 0.073,
+      "segments": 9,
+      "exact_label_pct": 61.67,
+      "major_minor_reduction_pct": 74.38,
+      "unknown_pct": 8.54
+    },
+    {
+      "case": "silence",
+      "method": "baseline",
+      "seconds": 0.011,
+      "segments": 1,
+      "exact_label_pct": 100.0,
+      "major_minor_reduction_pct": 100.0,
+      "unknown_pct": 100.0
+    },
+    {
+      "case": "silence",
+      "method": "chordino",
+      "seconds": 0.064,
+      "segments": 2,
+      "exact_label_pct": 100.0,
+      "major_minor_reduction_pct": 100.0,
+      "unknown_pct": 100.0
+    },
+    {
+      "case": "silence",
+      "method": "btc-large",
+      "seconds": 0.025,
+      "segments": 1,
+      "exact_label_pct": 100.0,
+      "major_minor_reduction_pct": 100.0,
+      "unknown_pct": 100.0
+    },
+    {
+      "case": "percussion-only",
+      "method": "baseline",
+      "seconds": 0.013,
+      "segments": 1,
+      "exact_label_pct": 100.0,
+      "major_minor_reduction_pct": 100.0,
+      "unknown_pct": 100.0
+    },
+    {
+      "case": "percussion-only",
+      "method": "chordino",
+      "seconds": 0.067,
+      "segments": 2,
+      "exact_label_pct": 100.0,
+      "major_minor_reduction_pct": 100.0,
+      "unknown_pct": 100.0
+    },
+    {
+      "case": "percussion-only",
+      "method": "btc-large",
+      "seconds": 0.025,
+      "segments": 1,
+      "exact_label_pct": 100.0,
+      "major_minor_reduction_pct": 100.0,
+      "unknown_pct": 100.0
+    },
+    {
+      "case": "uploaded-song-unlabelled",
+      "method": "baseline",
+      "seconds": 0.193,
+      "segments": 62,
+      "accuracy": null
+    },
+    {
+      "case": "uploaded-song-unlabelled",
+      "method": "chordino",
+      "seconds": 0.765,
+      "segments": 31,
+      "accuracy": null
+    },
+    {
+      "case": "uploaded-song-unlabelled",
+      "method": "btc-large",
+      "seconds": 0.282,
+      "segments": 130,
+      "accuracy": null
+    }
+  ]
+}

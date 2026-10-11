@@ -1,0 +1,26 @@
+<!doctype html><meta charset="utf-8"><title>Live audio verification</title><pre id="results">Running audio checks…</pre>
+<script type="module">
+import {SoundTouchNode} from '@soundtouchjs/audio-worklet';
+import processorUrl from '@soundtouchjs/audio-worklet/processor?url';
+import {AudioEngine} from '../src/audio-engine.ts';
+const results=[];
+function check(name,ok,detail){results.push(`${ok?'PASS':'FAIL'} ${name}: ${detail}`);document.querySelector('#results').textContent=results.join('\n');if(!ok)throw Error(name);}
+function frequency(data,sr,from,to){let n=0;for(let i=Math.floor(from*sr)+1;i<Math.floor(to*sr);i++)if(data[i-1]<=0&&data[i]>0)n++;return n/(to-from);}
+try {
+ const sr=44100,ctx=new OfflineAudioContext(2,sr*7,sr);
+ await SoundTouchNode.register(ctx,processorUrl);
+ const dsp=new SoundTouchNode({context:ctx});dsp.connect(ctx.destination);
+ const buffer=ctx.createBuffer(2,sr*6,sr);for(let c=0;c<2;c++){const data=buffer.getChannelData(c);for(let i=0;i<data.length;i++)data[i]=.2*Math.sin(2*Math.PI*220*i/sr);}
+ const source=ctx.createBufferSource();source.buffer=buffer;source.connect(dsp);
+ dsp.pitchSemitones.setValueAtTime(12,3);source.playbackRate.setValueAtTime(1.25,3);dsp.playbackRate.setValueAtTime(1.25,3);source.start();
+ const output=(await ctx.startRendering()).getChannelData(0);
+ const before=frequency(output,sr,1,2),after=frequency(output,sr,4,5);
+ check('Live transpose with independent tempo',Math.abs(before-220)<4&&Math.abs(after-440)<8,`${before.toFixed(1)} Hz → ${after.toFixed(1)} Hz while tempo changes to 125%`);
+ let last=0;for(let i=0;i<output.length;i++)if(Math.abs(output[i])>.005)last=i/sr;
+ check('Live tempo shortens duration',Math.abs(last-5.4)<.2,`${last.toFixed(3)} s; expected ~5.4 s plus DSP tail`);
+ const engine=new AudioEngine();engine.duration=100;engine.context={currentTime:10};engine.started=5;engine.playing=true;
+ engine.controls(1.25,2);check('Tempo change preserves position',engine.time()===5,`source position ${engine.time()}`);
+ engine.context.currentTime=14;check('Playhead integrates tempo',engine.time()===10,`source position ${engine.time()}`);
+ engine.controls(.75,-2);check('Second tempo change preserves position',engine.time()===10,`source position ${engine.time()}`);
+} catch(e){document.querySelector('#results').textContent+='\nERROR '+e.message;}
+</script>

@@ -1,0 +1,31 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+*.pyc
+data/
+.env
+*.log
+*.tsbuildinfo
+
+
+# Local learning notes and machine state
+.vibe-wise/
+.DS_Store
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+# Audio and checkpoints belong in external/private storage
+*.wav
+*.mp3
+*.flac
+*.ckpt
+*.pt
+*.pth
+*.onnx
+# Demo screenshots expose uploaded track titles
+docs/*preview*.png

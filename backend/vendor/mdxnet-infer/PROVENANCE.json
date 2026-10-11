@@ -1,0 +1,17 @@
+{
+  "source": "https://github.com/openmirlab/mdxnet-infer/releases/tag/v0.1.0",
+  "commit": "84458e9ef6306a895c4917f03c4f65ac3a22f596",
+  "source_archive_bytes": 129898,
+  "code_license": "MIT",
+  "weight_license": "unresolved",
+  "weights": [
+    {
+      "name": "aufr33-jarredou_DrumSep_model_mdx23c_ep_141_sdr_10.8059.ckpt",
+      "sha256": "d2a4aa53eb584d21eead358a4e66d1882ad182911be018f052b5da73be9096d0"
+    },
+    {
+      "name": "aufr33-jarredou_DrumSep_model_mdx23c_ep_141_sdr_10.8059.yaml",
+      "sha256": "17d1649a227f841165bdb4c11a42082898192a1ea3ceab7e7e0b9293d6589dd6"
+    }
+  ]
+}

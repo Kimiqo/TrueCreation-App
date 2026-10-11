@@ -1,0 +1,281 @@
+[
+  {
+    "name": "chordino",
+    "repo": "c4dm/nnls-chroma",
+    "commit": "4c5f214a75cb354f8d8c933e161377c5b4d83713",
+    "files": [
+      {
+        "path": "COPYING",
+        "size": 15131,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/COPYING",
+        "sha256": "67f82e045cf7acfef853ea0f426575a8359161a0a325e19f02b529a87c4b6c34"
+      },
+      {
+        "path": "Chordino.cpp",
+        "size": 25115,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/Chordino.cpp",
+        "sha256": "92b212e8dbe0c044273ad797dc96da9389d56d30ca1db84ef8a8dec898797005"
+      },
+      {
+        "path": "Chordino.h",
+        "size": 1536,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/Chordino.h",
+        "sha256": "f9c83579bb32f5f7e27277380dbb8d3ad5c577edefc76dd3df42577d48c22681"
+      },
+      {
+        "path": "NNLSBase.cpp",
+        "size": 15182,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/NNLSBase.cpp",
+        "sha256": "b8e4d169fed528d24db0de7239be3e61292e1b81f25979baec3e7c2e05a7e962"
+      },
+      {
+        "path": "NNLSBase.h",
+        "size": 2266,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/NNLSBase.h",
+        "sha256": "3785d521d8258bceb7b88334eb27b54d5ec6631f880da4f297011e9595c0bc9d"
+      },
+      {
+        "path": "NNLSChroma.cpp",
+        "size": 18982,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/NNLSChroma.cpp",
+        "sha256": "873a7f6c19f80b2d65d294f9cdc5effa168ae7aa2670abe5ea602ca65adaa4c8"
+      },
+      {
+        "path": "NNLSChroma.h",
+        "size": 1472,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/NNLSChroma.h",
+        "sha256": "7e2d29fff36952a0e6b8b97c7d6ae17caeaf86e3dd20e425cda36434eb171622"
+      },
+      {
+        "path": "README",
+        "size": 10172,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/README",
+        "sha256": "d0b25c9ec533a2159e865b43ee1dccac7141fce93efdffea58e043cac39c2ade"
+      },
+      {
+        "path": "Tuning.cpp",
+        "size": 5849,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/Tuning.cpp",
+        "sha256": "32622a16eac5e2267c28dab202e16fabc814badfc38140116d3cda6955942d48"
+      },
+      {
+        "path": "Tuning.h",
+        "size": 1390,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/Tuning.h",
+        "sha256": "ce63a12031bd4df6d2bf5d2f906f67eb68e039267699dc55eee1e8d51d9a0e8a"
+      },
+      {
+        "path": "chordextract.cpp",
+        "size": 4283,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/chordextract.cpp",
+        "sha256": "6c98c8da74b1d79667481f58ebe5181a741fa45320880ddb57024cd518c0ee86"
+      },
+      {
+        "path": "chromamethods.cpp",
+        "size": 22231,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/chromamethods.cpp",
+        "sha256": "a697d312f3da5ce199a0f93f5637b4f713e44c0e37a505089830f1e556e483fa"
+      },
+      {
+        "path": "chromamethods.h",
+        "size": 3116,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/chromamethods.h",
+        "sha256": "30ac888fec953fbe0c895ac9177ee22269423f0fb4bb1474eb33fc7e45d89498"
+      },
+      {
+        "path": "nnls.c",
+        "size": 12857,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/nnls.c",
+        "sha256": "15d687e019bf0f09baf3d2643905b0c01d2cc6cfb72799a4e97a95fb3ae2b9f8"
+      },
+      {
+        "path": "nnls.h",
+        "size": 236,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/nnls.h",
+        "sha256": "3ec29d6aae6ba0adf0bf9c82ec6284b3b6846f56298097458d0d19342808cae5"
+      },
+      {
+        "path": "plugins.cpp",
+        "size": 1488,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/plugins.cpp",
+        "sha256": "6df88f930503d0f87d9ff29e66818b17a2eb4d39de7e9507d4566c0a8ed280d8"
+      },
+      {
+        "path": "viterbi.cpp",
+        "size": 3301,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/viterbi.cpp",
+        "sha256": "2ef53e9f8325dcf59bce9fe46bf4948d1803125d6786f0a37a80790660932ccd"
+      },
+      {
+        "path": "viterbi.h",
+        "size": 914,
+        "url": "https://raw.githubusercontent.com/c4dm/nnls-chroma/4c5f214a75cb354f8d8c933e161377c5b4d83713/viterbi.h",
+        "sha256": "ef810f529154217a308c0575594b7459a9ed542346ec4de37b55d56808178674"
+      }
+    ]
+  },
+  {
+    "name": "vamp",
+    "repo": "c4dm/vamp-plugin-sdk",
+    "commit": "63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a",
+    "files": [
+      {
+        "path": "COPYING",
+        "size": 3153,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/COPYING",
+        "sha256": "3795c8af1f90fdef80c4e24e84bf708790acf7ed374950904872445ea86216ca"
+      },
+      {
+        "path": "src/vamp-sdk/FFT.cpp",
+        "size": 6643,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/FFT.cpp",
+        "sha256": "55f5e5f8cbb7589a5650eb225e3d2a1a130cdca7c237b54fe46f07e723652871"
+      },
+      {
+        "path": "src/vamp-sdk/FFTimpl.cpp",
+        "size": 858,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/FFTimpl.cpp",
+        "sha256": "34dfb8420ac078610db854887b8dd4462b62875cf7e429d308d80c07a096f47d"
+      },
+      {
+        "path": "src/vamp-sdk/PluginAdapter.cpp",
+        "size": 32656,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/PluginAdapter.cpp",
+        "sha256": "59c330b02e2cf71b1197bbee0111ed78f30b0356b3a46aaca9ea6078f37f41e1"
+      },
+      {
+        "path": "src/vamp-sdk/RealTime.cpp",
+        "size": 6442,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/RealTime.cpp",
+        "sha256": "adceccb755c5299f6e9248fb758e43857b9e385f27a8b31a2284487c8ed8ca63"
+      },
+      {
+        "path": "src/vamp-sdk/acsymbols.c",
+        "size": 765,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/acsymbols.c",
+        "sha256": "f989cf80e6545359ff9ddc8cc6fde2254a4aad9ced54c5ec40fd41ba41fb5503"
+      },
+      {
+        "path": "src/vamp-sdk/ext/vamp_kiss_fft.c",
+        "size": 13055,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/ext/vamp_kiss_fft.c",
+        "sha256": "8bda9fb02760d38e234e87ca4f19eefa592bdfad5c1528de6cdd1f83d0df221b"
+      },
+      {
+        "path": "src/vamp-sdk/ext/vamp_kiss_fft.h",
+        "size": 3170,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/ext/vamp_kiss_fft.h",
+        "sha256": "4a73ee11e9a804cb6c5f7b857fcd91afd5f38e06dc5be12bcaab5ce2106c22b3"
+      },
+      {
+        "path": "src/vamp-sdk/ext/vamp_kiss_fft_guts.h",
+        "size": 3869,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/ext/vamp_kiss_fft_guts.h",
+        "sha256": "fc598239f9cbb316906a48e66eabf95a99f14b9f659e429eebd60c72c347c518"
+      },
+      {
+        "path": "src/vamp-sdk/ext/vamp_kiss_fftr.c",
+        "size": 5940,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/ext/vamp_kiss_fftr.c",
+        "sha256": "499486d754d97df07f28096ff8ef476eec63252e9a0d016e29a64dfd29026464"
+      },
+      {
+        "path": "src/vamp-sdk/ext/vamp_kiss_fftr.h",
+        "size": 1115,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/src/vamp-sdk/ext/vamp_kiss_fftr.h",
+        "sha256": "407ee40862ca3f6ed59c86beffb245fd982b136692cabd357b6b1cf93efe03bf"
+      },
+      {
+        "path": "vamp-sdk/FFT.h",
+        "size": 6566,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/vamp-sdk/FFT.h",
+        "sha256": "94a80e8af1760345172c1f0fca890f8e7c3d520d6cf816067b3fbe592e53d4af"
+      },
+      {
+        "path": "vamp-sdk/Plugin.h",
+        "size": 15939,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/vamp-sdk/Plugin.h",
+        "sha256": "315628a9a6fc30a97256af4aa7dd258223661c3c1973d8531fe8d835e8776a7a"
+      },
+      {
+        "path": "vamp-sdk/PluginAdapter.h",
+        "size": 3691,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/vamp-sdk/PluginAdapter.h",
+        "sha256": "1fa436f037e7e450d9b7af607a6c8d6cc20e674ee6cd559d347621d8e1a02c7a"
+      },
+      {
+        "path": "vamp-sdk/PluginBase.h",
+        "size": 8250,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/vamp-sdk/PluginBase.h",
+        "sha256": "67890612511ca0c00b977a0e7e0c38d53ad060c5e5c14537a572baa3f07bb5db"
+      },
+      {
+        "path": "vamp-sdk/RealTime.h",
+        "size": 4727,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/vamp-sdk/RealTime.h",
+        "sha256": "c6fedb2ccc4a9991458013b2e9fed65059dd2a074f11b5582602236706c41ad9"
+      },
+      {
+        "path": "vamp-sdk/plugguard.h",
+        "size": 3776,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/vamp-sdk/plugguard.h",
+        "sha256": "ad2e7065b3545f00c842fd5177b183bb2b2a476b3a82d828e4f0db24ac9a0333"
+      },
+      {
+        "path": "vamp-sdk/vamp-sdk.h",
+        "size": 1786,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/vamp-sdk/vamp-sdk.h",
+        "sha256": "badbcc53c0f66602baacf0bcb2e355a1e95fb12176fe4f62e2ba8552dc6c342f"
+      },
+      {
+        "path": "vamp/vamp.h",
+        "size": 13129,
+        "url": "https://raw.githubusercontent.com/c4dm/vamp-plugin-sdk/63e0c3b37b6fb9ce6f074ea8222b4903e4f5568a/vamp/vamp.h",
+        "sha256": "cbaab431257b18ed4edd56863c866ac054261f3af8e355358f2ca31979c69d03"
+      }
+    ]
+  },
+  {
+    "name": "btc",
+    "repo": "jayg996/BTC-ISMIR19",
+    "commit": "2682317be668032e6e4b269ded36adaa2ad57df0",
+    "files": [
+      {
+        "path": "LICENSE",
+        "size": 1070,
+        "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/2682317be668032e6e4b269ded36adaa2ad57df0/LICENSE",
+        "sha256": "7439cc22ff2efee600131dc5d800ab1204d8076a1a815d842a0319782520fc85"
+      },
+      {
+        "path": "btc_model.py",
+        "size": 7361,
+        "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/2682317be668032e6e4b269ded36adaa2ad57df0/btc_model.py",
+        "sha256": "b8cc0b66f3e7bc92e9703ea408bce21d8a39b10c3133cb2ab569c285fceb3a27"
+      },
+      {
+        "path": "run_config.yaml",
+        "size": 791,
+        "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/2682317be668032e6e4b269ded36adaa2ad57df0/run_config.yaml",
+        "sha256": "47ee1db8753d5e3cd2fceea1204c87e4d050ff54b59276f966ef4834962a8756"
+      },
+      {
+        "path": "test/btc_model_large_voca.pt",
+        "size": 12229576,
+        "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/2682317be668032e6e4b269ded36adaa2ad57df0/test/btc_model_large_voca.pt",
+        "sha256": "1673d23f8f9a55ae7f9e8b80a51da616debb22675b8d8b67ea6ce0ef37b0ab51"
+      },
+      {
+        "path": "utils/hparams.py",
+        "size": 940,
+        "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/2682317be668032e6e4b269ded36adaa2ad57df0/utils/hparams.py",
+        "sha256": "101669dda58b2976ea9d0eb26f78b3a1d0b034f141a25d9687e15cd3096d70bf"
+      },
+      {
+        "path": "utils/transformer_modules.py",
+        "size": 10480,
+        "url": "https://raw.githubusercontent.com/jayg996/BTC-ISMIR19/2682317be668032e6e4b269ded36adaa2ad57df0/utils/transformer_modules.py",
+        "sha256": "a68458094e1af876b021d3f955b70f52382c30a818bb51aff908ffec35310ece"
+      }
+    ]
+  }
+]
