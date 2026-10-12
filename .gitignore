@@ -19,13 +19,51 @@ data/
 *.db
 *.db-wal
 *.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Local test, coverage, and tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage/
+playwright-report/
+test-results/
 # Audio and checkpoints belong in external/private storage
 *.wav
 *.mp3
 *.flac
+*.m4a
+*.aac
+*.ogg
+*.opus
+*.aif
+*.aiff
 *.ckpt
 *.pt
 *.pth
 *.onnx
+*.safetensors
+
+# Recorded walkthroughs and generated demo artifacts
+*.mp4
+*.webm
+*.mov
+*.m4v
+*.mkv
+*.avi
+/recordings/
+/screenshots/
+/demo-artifacts/
+/output/
+/tmp/
 # Demo screenshots expose uploaded track titles
 docs/*preview*.png
+.vibe-wise
+/docs/
